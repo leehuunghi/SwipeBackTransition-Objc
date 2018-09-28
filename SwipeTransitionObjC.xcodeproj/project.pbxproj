@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A303CA522138F8A400DE770C /* UINavigationController+SwipeBackExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CA512138F8A400DE770C /* UINavigationController+SwipeBackExtensions.m */; };
+		A303CA552138FFCB00DE770C /* DelegateProxy-swift.m in Sources */ = {isa = PBXBuildFile; fileRef = A303CA542138FFCB00DE770C /* DelegateProxy-swift.m */; };
+		A33D5FDA2134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D5FD32134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.m */; };
+		A33D5FDC2134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D5FD72134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.m */; };
+		A33D5FE12134EFA000E3B9EF /* DelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D5FDF2134EFA000E3B9EF /* DelegateProxy.m */; };
+		A33D5FE421353B5B00E3B9EF /* TransitionHandleable.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D5FE321353B5B00E3B9EF /* TransitionHandleable.m */; };
+		A33D5FEA2135597800E3B9EF /* SwipeBackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33D5FE92135597800E3B9EF /* SwipeBackController.m */; };
+		A33F32402133ABC000D0436C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F323F2133ABC000D0436C /* AppDelegate.m */; };
+		A33F32432133ABC000D0436C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F32422133ABC000D0436C /* ViewController.m */; };
+		A33F32462133ABC000D0436C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33F32442133ABC000D0436C /* Main.storyboard */; };
+		A33F32482133ABC200D0436C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33F32472133ABC200D0436C /* Assets.xcassets */; };
+		A33F324B2133ABC200D0436C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33F32492133ABC200D0436C /* LaunchScreen.storyboard */; };
+		A33F324E2133ABC200D0436C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F324D2133ABC200D0436C /* main.m */; };
+		A33F325B2133DE6F00D0436C /* SwipeToDismissContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F325A2133DE6F00D0436C /* SwipeToDismissContext.m */; };
+		A33F325E2133E00F00D0436C /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F325D2133E00F00D0436C /* Context.m */; };
+		A34936BB2136400600F95DE1 /* SwipeBackContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A34936BA2136400500F95DE1 /* SwipeBackContext.m */; };
+		A34936BE213643F500F95DE1 /* AssocKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A34936BD213643F500F95DE1 /* AssocKey.m */; };
+		A34936C12136516000F95DE1 /* OneFingerDirectionalPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A34936C02136516000F95DE1 /* OneFingerDirectionalPanGestureRecognizer.m */; };
+		A34B42D7214264160076A79B /* SwipeToDismissController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33F32572133AE4500D0436C /* SwipeToDismissController.m */; };
+		A35670E62150F9CE00AB0349 /* PushableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A35670E52150F9CE00AB0349 /* PushableVC.m */; };
+		A35670EF215102CA00AB0349 /* PanGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35670EE215102CA00AB0349 /* PanGestureRecognizerTests.m */; };
+		A35670FB2151049C00AB0349 /* PanGestureRecognizerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A35670FA2151049C00AB0349 /* PanGestureRecognizerTest.m */; };
+		A356710221510CDE00AB0349 /* SwipeBackContextTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A35670FC2151087E00AB0349 /* SwipeBackContextTest.m */; };
+		A36C6D23213FE111008C3704 /* DismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A36C6D22213FE110008C3704 /* DismissAnimator.m */; };
+		A36C6D26213FE4E5008C3704 /* SwipeToDismissConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A36C6D25213FE4E5008C3704 /* SwipeToDismissConfiguration.m */; };
+		A36C6D29213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36C6D28213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.m */; };
+		A36C6D32213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A36C6D31213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.m */; };
+		A3E2BBA72137915B00B4B249 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E2BBA62137915B00B4B249 /* InteractiveTransition.m */; };
+		A3E2BBAA2137FEEE00B4B249 /* SwipeBackAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E2BBA92137FEEE00B4B249 /* SwipeBackAnimator.m */; };
+		A3E2BBB02138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E2BBAF2138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.m */; };
+		A3E2BBB32138DE2800B4B249 /* SwipeBackConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E2BBB22138DE2800B4B249 /* SwipeBackConfiguration.m */; };
+		A3FBE195214A5A420020D0BB /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBE194214A5A420020D0BB /* NavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A35670F1215102CA00AB0349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33F32332133ABC000D0436C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33F323A2133ABC000D0436C;
+			remoteInfo = SwipeTransitionObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A303CA502138F8A400DE770C /* UINavigationController+SwipeBackExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SwipeBackExtensions.h"; sourceTree = "<group>"; };
+		A303CA512138F8A400DE770C /* UINavigationController+SwipeBackExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SwipeBackExtensions.m"; sourceTree = "<group>"; };
+		A303CA532138FFCB00DE770C /* DelegateProxy-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegateProxy-swift.h"; sourceTree = "<group>"; };
+		A303CA542138FFCB00DE770C /* DelegateProxy-swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DelegateProxy-swift.m"; sourceTree = "<group>"; };
+		A33D5FD12134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutoSwipeToDismiss.h"; sourceTree = "<group>"; };
+		A33D5FD22134E4A800E3B9EF /* AutoSwipeToDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSwipeToDismiss.h; sourceTree = "<group>"; };
+		A33D5FD32134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutoSwipeToDismiss.m"; sourceTree = "<group>"; };
+		A33D5FD62134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutoSwipeBack.h"; sourceTree = "<group>"; };
+		A33D5FD72134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutoSwipeBack.m"; sourceTree = "<group>"; };
+		A33D5FD82134E4A800E3B9EF /* AutoSwipeBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSwipeBack.h; sourceTree = "<group>"; };
+		A33D5FDE2134E4C000E3B9EF /* SwipeTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeTransition.h; sourceTree = "<group>"; };
+		A33D5FDF2134EFA000E3B9EF /* DelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateProxy.m; sourceTree = "<group>"; };
+		A33D5FE02134EFA000E3B9EF /* DelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateProxy.h; sourceTree = "<group>"; };
+		A33D5FE221353B5B00E3B9EF /* TransitionHandleable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionHandleable.h; sourceTree = "<group>"; };
+		A33D5FE321353B5B00E3B9EF /* TransitionHandleable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionHandleable.m; sourceTree = "<group>"; };
+		A33D5FE82135597800E3B9EF /* SwipeBackController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeBackController.h; sourceTree = "<group>"; };
+		A33D5FE92135597800E3B9EF /* SwipeBackController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackController.m; sourceTree = "<group>"; };
+		A33F323B2133ABC000D0436C /* SwipeTransitionObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTransitionObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33F323E2133ABC000D0436C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A33F323F2133ABC000D0436C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A33F32412133ABC000D0436C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A33F32422133ABC000D0436C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A33F32452133ABC000D0436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A33F32472133ABC200D0436C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A33F324A2133ABC200D0436C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A33F324C2133ABC200D0436C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33F324D2133ABC200D0436C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33F32562133AE4500D0436C /* SwipeToDismissController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToDismissController.h; sourceTree = "<group>"; };
+		A33F32572133AE4500D0436C /* SwipeToDismissController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeToDismissController.m; sourceTree = "<group>"; };
+		A33F32592133DE6F00D0436C /* SwipeToDismissContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToDismissContext.h; sourceTree = "<group>"; };
+		A33F325A2133DE6F00D0436C /* SwipeToDismissContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeToDismissContext.m; sourceTree = "<group>"; };
+		A33F325C2133E00F00D0436C /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		A33F325D2133E00F00D0436C /* Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
+		A34936B92136400500F95DE1 /* SwipeBackContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeBackContext.h; sourceTree = "<group>"; };
+		A34936BA2136400500F95DE1 /* SwipeBackContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackContext.m; sourceTree = "<group>"; };
+		A34936BC213643F500F95DE1 /* AssocKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssocKey.h; sourceTree = "<group>"; };
+		A34936BD213643F500F95DE1 /* AssocKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssocKey.m; sourceTree = "<group>"; };
+		A34936BF2136515F00F95DE1 /* OneFingerDirectionalPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneFingerDirectionalPanGestureRecognizer.h; sourceTree = "<group>"; };
+		A34936C02136516000F95DE1 /* OneFingerDirectionalPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneFingerDirectionalPanGestureRecognizer.m; sourceTree = "<group>"; };
+		A35670E42150F9CE00AB0349 /* PushableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushableVC.h; sourceTree = "<group>"; };
+		A35670E52150F9CE00AB0349 /* PushableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushableVC.m; sourceTree = "<group>"; };
+		A35670EC215102CA00AB0349 /* PanGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35670EE215102CA00AB0349 /* PanGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerTests.m; sourceTree = "<group>"; };
+		A35670F0215102CA00AB0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35670F92151049C00AB0349 /* PanGestureRecognizerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureRecognizerTest.h; sourceTree = "<group>"; };
+		A35670FA2151049C00AB0349 /* PanGestureRecognizerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizerTest.m; sourceTree = "<group>"; };
+		A35670FC2151087E00AB0349 /* SwipeBackContextTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackContextTest.m; sourceTree = "<group>"; };
+		A36C6D21213FE110008C3704 /* DismissAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissAnimator.h; sourceTree = "<group>"; };
+		A36C6D22213FE110008C3704 /* DismissAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissAnimator.m; sourceTree = "<group>"; };
+		A36C6D24213FE4E5008C3704 /* SwipeToDismissConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToDismissConfiguration.h; sourceTree = "<group>"; };
+		A36C6D25213FE4E5008C3704 /* SwipeToDismissConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeToDismissConfiguration.m; sourceTree = "<group>"; };
+		A36C6D27213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToDismissNavigationControllerViewController.h; sourceTree = "<group>"; };
+		A36C6D28213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeToDismissNavigationControllerViewController.m; sourceTree = "<group>"; };
+		A36C6D30213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SwipeToDismissExtensions.h"; sourceTree = "<group>"; };
+		A36C6D31213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SwipeToDismissExtensions.m"; sourceTree = "<group>"; };
+		A3E2BBA52137915B00B4B249 /* InteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
+		A3E2BBA62137915B00B4B249 /* InteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransition.m; sourceTree = "<group>"; };
+		A3E2BBA82137FEEE00B4B249 /* SwipeBackAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeBackAnimator.h; sourceTree = "<group>"; };
+		A3E2BBA92137FEEE00B4B249 /* SwipeBackAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackAnimator.m; sourceTree = "<group>"; };
+		A3E2BBAE2138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeBackNavigationControllerViewController.h; sourceTree = "<group>"; };
+		A3E2BBAF2138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackNavigationControllerViewController.m; sourceTree = "<group>"; };
+		A3E2BBB12138DE2800B4B249 /* SwipeBackConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeBackConfiguration.h; sourceTree = "<group>"; };
+		A3E2BBB22138DE2800B4B249 /* SwipeBackConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeBackConfiguration.m; sourceTree = "<group>"; };
+		A3FBE193214A5A420020D0BB /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		A3FBE194214A5A420020D0BB /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33F32382133ABC000D0436C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35670E9215102CA00AB0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A304F18A2140E365009A5490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33D5FCF2134E4A800E3B9EF /* Automation */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FD02134E4A800E3B9EF /* AutoSwipeToDismiss */,
+				A33D5FD52134E4A800E3B9EF /* AutoSwipeBack */,
+			);
+			path = Automation;
+			sourceTree = "<group>";
+		};
+		A33D5FD02134E4A800E3B9EF /* AutoSwipeToDismiss */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FD12134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.h */,
+				A33D5FD22134E4A800E3B9EF /* AutoSwipeToDismiss.h */,
+				A33D5FD32134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.m */,
+			);
+			path = AutoSwipeToDismiss;
+			sourceTree = "<group>";
+		};
+		A33D5FD52134E4A800E3B9EF /* AutoSwipeBack */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FD62134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.h */,
+				A33D5FD72134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.m */,
+				A33D5FD82134E4A800E3B9EF /* AutoSwipeBack.h */,
+			);
+			path = AutoSwipeBack;
+			sourceTree = "<group>";
+		};
+		A33D5FE52135571800E3B9EF /* SwipeBack */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FE82135597800E3B9EF /* SwipeBackController.h */,
+				A33D5FE92135597800E3B9EF /* SwipeBackController.m */,
+				A34936B92136400500F95DE1 /* SwipeBackContext.h */,
+				A34936BA2136400500F95DE1 /* SwipeBackContext.m */,
+				A3E2BBA82137FEEE00B4B249 /* SwipeBackAnimator.h */,
+				A3E2BBA92137FEEE00B4B249 /* SwipeBackAnimator.m */,
+				A3E2BBAE2138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.h */,
+				A3E2BBAF2138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.m */,
+				A3E2BBB12138DE2800B4B249 /* SwipeBackConfiguration.h */,
+				A3E2BBB22138DE2800B4B249 /* SwipeBackConfiguration.m */,
+				A303CA502138F8A400DE770C /* UINavigationController+SwipeBackExtensions.h */,
+				A303CA512138F8A400DE770C /* UINavigationController+SwipeBackExtensions.m */,
+			);
+			path = SwipeBack;
+			sourceTree = "<group>";
+		};
+		A33F32322133ABC000D0436C = {
+			isa = PBXGroup;
+			children = (
+				A35670F62151038100AB0349 /* Test */,
+				A33F32542133ADC200D0436C /* Source */,
+				A33F323D2133ABC000D0436C /* SwipeTransitionObjC */,
+				A35670ED215102CA00AB0349 /* PanGestureRecognizerTests */,
+				A33F323C2133ABC000D0436C /* Products */,
+				A304F18A2140E365009A5490 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A33F323C2133ABC000D0436C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33F323B2133ABC000D0436C /* SwipeTransitionObjC.app */,
+				A35670EC215102CA00AB0349 /* PanGestureRecognizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33F323D2133ABC000D0436C /* SwipeTransitionObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A33F323E2133ABC000D0436C /* AppDelegate.h */,
+				A33F323F2133ABC000D0436C /* AppDelegate.m */,
+				A33F32412133ABC000D0436C /* ViewController.h */,
+				A33F32422133ABC000D0436C /* ViewController.m */,
+				A33F32442133ABC000D0436C /* Main.storyboard */,
+				A33F32472133ABC200D0436C /* Assets.xcassets */,
+				A33F32492133ABC200D0436C /* LaunchScreen.storyboard */,
+				A33F324C2133ABC200D0436C /* Info.plist */,
+				A33F324D2133ABC200D0436C /* main.m */,
+				A3FBE193214A5A420020D0BB /* NavigationViewController.h */,
+				A3FBE194214A5A420020D0BB /* NavigationViewController.m */,
+				A35670E42150F9CE00AB0349 /* PushableVC.h */,
+				A35670E52150F9CE00AB0349 /* PushableVC.m */,
+			);
+			path = SwipeTransitionObjC;
+			sourceTree = "<group>";
+		};
+		A33F32542133ADC200D0436C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FCF2134E4A800E3B9EF /* Automation */,
+				A33F325F2133E02F00D0436C /* SwipeTransition */,
+				A33F325C2133E00F00D0436C /* Context.h */,
+				A33F325D2133E00F00D0436C /* Context.m */,
+				A33D5FE02134EFA000E3B9EF /* DelegateProxy.h */,
+				A33D5FDF2134EFA000E3B9EF /* DelegateProxy.m */,
+				A303CA532138FFCB00DE770C /* DelegateProxy-swift.h */,
+				A303CA542138FFCB00DE770C /* DelegateProxy-swift.m */,
+				A33D5FE221353B5B00E3B9EF /* TransitionHandleable.h */,
+				A33D5FE321353B5B00E3B9EF /* TransitionHandleable.m */,
+				A3E2BBA52137915B00B4B249 /* InteractiveTransition.h */,
+				A3E2BBA62137915B00B4B249 /* InteractiveTransition.m */,
+				A34936BC213643F500F95DE1 /* AssocKey.h */,
+				A34936BD213643F500F95DE1 /* AssocKey.m */,
+				A34936BF2136515F00F95DE1 /* OneFingerDirectionalPanGestureRecognizer.h */,
+				A34936C02136516000F95DE1 /* OneFingerDirectionalPanGestureRecognizer.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A33F32552133ADEB00D0436C /* SwipeToDimiss */ = {
+			isa = PBXGroup;
+			children = (
+				A33F32562133AE4500D0436C /* SwipeToDismissController.h */,
+				A33F32572133AE4500D0436C /* SwipeToDismissController.m */,
+				A33F32592133DE6F00D0436C /* SwipeToDismissContext.h */,
+				A33F325A2133DE6F00D0436C /* SwipeToDismissContext.m */,
+				A36C6D21213FE110008C3704 /* DismissAnimator.h */,
+				A36C6D22213FE110008C3704 /* DismissAnimator.m */,
+				A36C6D24213FE4E5008C3704 /* SwipeToDismissConfiguration.h */,
+				A36C6D25213FE4E5008C3704 /* SwipeToDismissConfiguration.m */,
+				A36C6D27213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.h */,
+				A36C6D28213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.m */,
+				A36C6D30213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.h */,
+				A36C6D31213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.m */,
+			);
+			path = SwipeToDimiss;
+			sourceTree = "<group>";
+		};
+		A33F325F2133E02F00D0436C /* SwipeTransition */ = {
+			isa = PBXGroup;
+			children = (
+				A33D5FDE2134E4C000E3B9EF /* SwipeTransition.h */,
+				A33D5FE52135571800E3B9EF /* SwipeBack */,
+				A33F32552133ADEB00D0436C /* SwipeToDimiss */,
+			);
+			path = SwipeTransition;
+			sourceTree = "<group>";
+		};
+		A35670ED215102CA00AB0349 /* PanGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A35670EE215102CA00AB0349 /* PanGestureRecognizerTests.m */,
+				A35670F0215102CA00AB0349 /* Info.plist */,
+			);
+			path = PanGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		A35670F62151038100AB0349 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				A35670F92151049C00AB0349 /* PanGestureRecognizerTest.h */,
+				A35670FA2151049C00AB0349 /* PanGestureRecognizerTest.m */,
+				A35670FC2151087E00AB0349 /* SwipeBackContextTest.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33F323A2133ABC000D0436C /* SwipeTransitionObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33F32512133ABC200D0436C /* Build configuration list for PBXNativeTarget "SwipeTransitionObjC" */;
+			buildPhases = (
+				A33F32372133ABC000D0436C /* Sources */,
+				A33F32382133ABC000D0436C /* Frameworks */,
+				A33F32392133ABC000D0436C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTransitionObjC;
+			productName = SwipeTransitionObjC;
+			productReference = A33F323B2133ABC000D0436C /* SwipeTransitionObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A35670EB215102CA00AB0349 /* PanGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35670F3215102CA00AB0349 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTests" */;
+			buildPhases = (
+				A35670E8215102CA00AB0349 /* Sources */,
+				A35670E9215102CA00AB0349 /* Frameworks */,
+				A35670EA215102CA00AB0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35670F2215102CA00AB0349 /* PBXTargetDependency */,
+			);
+			name = PanGestureRecognizerTests;
+			productName = PanGestureRecognizerTests;
+			productReference = A35670EC215102CA00AB0349 /* PanGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33F32332133ABC000D0436C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = CPU11360;
+				TargetAttributes = {
+					A33F323A2133ABC000D0436C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A35670EB215102CA00AB0349 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A33F323A2133ABC000D0436C;
+					};
+				};
+			};
+			buildConfigurationList = A33F32362133ABC000D0436C /* Build configuration list for PBXProject "SwipeTransitionObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A33F32322133ABC000D0436C;
+			productRefGroup = A33F323C2133ABC000D0436C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33F323A2133ABC000D0436C /* SwipeTransitionObjC */,
+				A35670EB215102CA00AB0349 /* PanGestureRecognizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33F32392133ABC000D0436C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33F324B2133ABC200D0436C /* LaunchScreen.storyboard in Resources */,
+				A33F32482133ABC200D0436C /* Assets.xcassets in Resources */,
+				A33F32462133ABC000D0436C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35670EA215102CA00AB0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33F32372133ABC000D0436C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34B42D7214264160076A79B /* SwipeToDismissController.m in Sources */,
+				A36C6D32213FF0A7008C3704 /* UINavigationController+SwipeToDismissExtensions.m in Sources */,
+				A303CA522138F8A400DE770C /* UINavigationController+SwipeBackExtensions.m in Sources */,
+				A34936C12136516000F95DE1 /* OneFingerDirectionalPanGestureRecognizer.m in Sources */,
+				A36C6D29213FED52008C3704 /* SwipeToDismissNavigationControllerViewController.m in Sources */,
+				A33D5FDC2134E4A800E3B9EF /* UINavigationController+AutoSwipeBack.m in Sources */,
+				A3E2BBAA2137FEEE00B4B249 /* SwipeBackAnimator.m in Sources */,
+				A3E2BBB32138DE2800B4B249 /* SwipeBackConfiguration.m in Sources */,
+				A35670E62150F9CE00AB0349 /* PushableVC.m in Sources */,
+				A33D5FEA2135597800E3B9EF /* SwipeBackController.m in Sources */,
+				A33F325E2133E00F00D0436C /* Context.m in Sources */,
+				A33F32432133ABC000D0436C /* ViewController.m in Sources */,
+				A33F324E2133ABC200D0436C /* main.m in Sources */,
+				A33F32402133ABC000D0436C /* AppDelegate.m in Sources */,
+				A33D5FDA2134E4A800E3B9EF /* UINavigationController+AutoSwipeToDismiss.m in Sources */,
+				A3E2BBB02138DB4E00B4B249 /* SwipeBackNavigationControllerViewController.m in Sources */,
+				A36C6D26213FE4E5008C3704 /* SwipeToDismissConfiguration.m in Sources */,
+				A33D5FE12134EFA000E3B9EF /* DelegateProxy.m in Sources */,
+				A3FBE195214A5A420020D0BB /* NavigationViewController.m in Sources */,
+				A33D5FE421353B5B00E3B9EF /* TransitionHandleable.m in Sources */,
+				A33F325B2133DE6F00D0436C /* SwipeToDismissContext.m in Sources */,
+				A36C6D23213FE111008C3704 /* DismissAnimator.m in Sources */,
+				A34936BE213643F500F95DE1 /* AssocKey.m in Sources */,
+				A35670FB2151049C00AB0349 /* PanGestureRecognizerTest.m in Sources */,
+				A34936BB2136400600F95DE1 /* SwipeBackContext.m in Sources */,
+				A3E2BBA72137915B00B4B249 /* InteractiveTransition.m in Sources */,
+				A303CA552138FFCB00DE770C /* DelegateProxy-swift.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35670E8215102CA00AB0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35670EF215102CA00AB0349 /* PanGestureRecognizerTests.m in Sources */,
+				A356710221510CDE00AB0349 /* SwipeBackContextTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A35670F2215102CA00AB0349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33F323A2133ABC000D0436C /* SwipeTransitionObjC */;
+			targetProxy = A35670F1215102CA00AB0349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A33F32442133ABC000D0436C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33F32452133ABC000D0436C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A33F32492133ABC200D0436C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33F324A2133ABC200D0436C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A33F324F2133ABC200D0436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A33F32502133ABC200D0436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A33F32522133ABC200D0436C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SwipeTransitionObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghilh.SwipeTransitionObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A33F32532133ABC200D0436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SwipeTransitionObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghilh.SwipeTransitionObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A35670F4215102CA00AB0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghilh.PanGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTransitionObjC.app/SwipeTransitionObjC";
+			};
+			name = Debug;
+		};
+		A35670F5215102CA00AB0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PanGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nghilh.PanGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTransitionObjC.app/SwipeTransitionObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33F32362133ABC000D0436C /* Build configuration list for PBXProject "SwipeTransitionObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33F324F2133ABC200D0436C /* Debug */,
+				A33F32502133ABC200D0436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33F32512133ABC200D0436C /* Build configuration list for PBXNativeTarget "SwipeTransitionObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33F32522133ABC200D0436C /* Debug */,
+				A33F32532133ABC200D0436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35670F3215102CA00AB0349 /* Build configuration list for PBXNativeTarget "PanGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35670F4215102CA00AB0349 /* Debug */,
+				A35670F5215102CA00AB0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A33F32332133ABC000D0436C /* Project object */;
+}
